@@ -10,18 +10,18 @@ export default  function Footer (){
         
         <footer className="grid grid-cols-1 gap-4 md: grid-cols-2 px-8 lg:grid-cols-3 py-4 px-2 lg:gap-0">
         <div>
-          <p className="text-2xl text-gray-800 font-bold"> UrgentCa$h</p>
-          <p className="text-xs text-gray-600"> &copy; {year} Urgent limited</p>
+          <p className="text-2xl text-green-600 font-bold"> UrgentCa$h</p>
+          <p className="text-xs text-gray-600"> &copy; {year} Urgent LTD.</p>
         </div>
         <div>
             <p  className="text-md text-gray-700">Head Office</p>
-            <p className="text-md text-gray-700">Ademola Adetokunbo crescent, WuseII,Abuja,Nigeria.</p>
+            <p className="text-md text-gray-700">Ademola Adetokunbo Crescent, Wuse II, Abuja, Nigeria.</p>
         </div>
         <div>
             <ul className="flex lg:justify-end items-center gap-4">
-              <li><Link href=""><FaFacebook className="text-lg"/></Link></li>
-              <li><Link href=""><FaTiktok className="text-lg"/></Link></li>
-              <li><Link href=""><FaTwitter className="text-md"/></Link></li>
+              <li><Link href=""><FaFacebook className="text-lg text-green-600"/></Link></li>
+              <li><Link href=""><FaTiktok className="text-lg text-green-600"/></Link></li>
+              <li><Link href=""><FaTwitter className="text-md text-green-600"/></Link></li>
               </ul>
 
               <ul className = "flex lg:justify-end items-center gap-4">

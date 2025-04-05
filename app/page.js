@@ -14,7 +14,7 @@ return (
     <h2 className="text-4xl font-bold">Fast. Easy. Loans your way.</h2>
 <div className="mt-6">
       <input type="text" placeholder="Phone Number" className="text-xl text-black" />
-      <button className="bg-green-500 px-4 py-2 ml-2">Get a Loan</button>
+      <button className="bg-green-600 px-4 py-2 ml-2">Get a Loan</button>
 </div>
     <p className="text-sm mt-2">Checking for loan offers is completely free. We never share your information. </p>
      <a href = "#">  Terms & Conditions</a>
