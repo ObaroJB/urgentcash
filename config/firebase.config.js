@@ -4,12 +4,12 @@ import {getFirestore} from "firebase/firestore"
 import {getStorage} from "firebase/storage";
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: ProcessingInstruction.ENV.FIREBASE_API_KEY,
-  authDomain: "urgentcash-1ffc8.firebaseapp.com",
-  projectId: "urgentcash-1ffc8",
-  storageBucket: "urgentcash-1ffc8.firebasestorage.app",
-  messagingSenderId: "828142571559",
-  appId: "1:828142571559:web:310ec94d50ab596c52be02"
+  apiKey: process.env.FIREBASE_API_KEY,
+  authDomain: "urgentcash01.firebaseapp.com",
+  projectId: "urgentcash01",
+  storageBucket: "urgentcash01.firebasestorage.app",
+  messagingSenderId: "227920179535",
+  appId: "1:227920179535:web:1c119735f2d720532e553a"
 };
 
 // Initialize Firebase

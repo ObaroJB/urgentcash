@@ -37,7 +37,7 @@ export default function GetLoan (){
             <blockquote className="border-b border-gray-200 pb-3">
                 <span className="foot-thin text-lg text-green-800 text-center">Get Instant Loans from Urgent Ca$h</span>
             </blockquote>
-            <form onClick={handleSubmit} className="flex flex-col gap-4">
+            <form onSumbit={handleSubmit} className="flex flex-col gap-4">
               <div className="flex flex-col gap-1">
               <label className="text-green-800 text-xs">Enter Amount To Borrow</label>   
               <TextField
