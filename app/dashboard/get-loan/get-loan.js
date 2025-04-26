@@ -38,7 +38,7 @@ export default function GetLoan ({userId}){
   
       if (!userIdentifier) {
         setOpsProgress(false);
-        alert("User identification missing. Please log in again.");
+        alert("User identification not found. Please log in again.");
         return;
       }
 
