@@ -28,22 +28,22 @@ return (
 <div className="bg-blue-800 py-8 text-center">
 <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
 <div>
-        <p className=" ml-39"><SlCalender/></p>
+        <p className=" ml-49"><SlCalender/></p>
         <p className="text-2xl font-bold">24/7</p>
         <p>Always available</p>
 </div>
 <div>
-        <p className="ml-39"><FaLock/></p>
+        <p className="ml-49"><FaLock/></p>
         <p className="text-2xl font-bold">Safe</p>
         <p>Always secure</p>
 </div>
 <div>
-        <p className="ml-39"><IoPeopleSharp/></p>
+        <p className="ml-49"><IoPeopleSharp/></p>
         <p className="text-2xl font-bold">1M+</p>
         <p>Clients</p>
 </div>
 <div>
-        <p className="ml-39"><FaMoneyBillWave/></p>
+        <p className="ml-49"><FaMoneyBillWave/></p>
         <p className="text-2xl font-bold">40B+</p>
         <p>Borrowed</p>
 </div>
