@@ -57,7 +57,7 @@ export default function GetLoan ({userId}){
        .catch(e => {
         setOpsProgress(false);
         console.error(e);
-        alert(`you have encountered an error: ${e}`)
+        alert(` Something went wrong : ${e}`)
        })
     },
     validationSchema:schema
