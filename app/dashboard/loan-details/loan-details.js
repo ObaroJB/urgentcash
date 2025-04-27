@@ -179,7 +179,7 @@ export default function LoanDetails ({user}) {
                  { loan !== null ?
                  <div className="flex flex-col gap-4">
                     <ul className="grid grid-cols-2 pb-3 mb-3 border-b border-green-200">
-                       <li className="text-lg text-gray-700 uppercase">Amount</li>
+                       <li className="text-lg text-gray-800 uppercase">Amount</li>
                        <li className="text-lg text-gray-700 text-end"> {loan.amount} </li>
                     </ul>
                     <ul className="grid grid-cols-2 pb-3 mb-3 border-b border-green-200">
