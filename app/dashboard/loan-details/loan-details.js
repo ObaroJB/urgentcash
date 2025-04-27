@@ -19,7 +19,7 @@ import { useSession } from "next-auth/react";
 
 export default function LoanDetails ({user}) {
     const {data : session} = useSession();
-    
+    console.log(session)
 
     const {loanDocId} = React.useContext(AppContext);
     const [loan,setloan] = React.useState(null);
@@ -85,7 +85,7 @@ export default function LoanDetails ({user}) {
     },[values.amount])
     // >>>> Flutterwave components <<<<<
     const config = {
-        public_key: process.env.FLUTTERWAVE_KEY,
+        public_key: 'FLWPUBK_TEST-07eb955aba643e63f3c057bd00d016ff-X',
         tx_ref: Date.now(),
         amount: Math.round(values.amount),
         currency: 'NGN',

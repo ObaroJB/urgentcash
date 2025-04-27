@@ -38,7 +38,7 @@ export default function GetLoan ({userId}){
   
       if (!userIdentifier) {
         setOpsProgress(false);
-        alert("User identification not found. Please log in again.");
+        alert("User identification missing. Please log in again.");
         return;
       }
 
@@ -52,12 +52,12 @@ export default function GetLoan ({userId}){
          timecreated: new Date().getTime(),
        }).then(() => {
         setOpsProgress(false)
-        alert('You have successfully applied for a loan of ${values.amount} with a payback amount of #${paybackAmount} at a rate of ${rate}%  for ${loanDate}days')
+        alert(`You have successfully applied for a loan of ${values.amount} with a payback amount of #${paybackAmount} at a rate of ${rate}%  for ${loanDate}days`)
        })
        .catch(e => {
         setOpsProgress(false);
         console.error(e);
-        alert('you have encountered an error: ${e}')
+        alert(`you have encountered an error: ${e}`)
        })
     },
     validationSchema:schema
