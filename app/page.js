@@ -20,8 +20,8 @@ return (
      <a href = "#">  Terms & Conditions</a>
 <ul className="mt-4 ">
       <li> *Receive funds in 2 minutes or less</li>
-      <li> *No documentation or collateral</li>
-      <li> *Interest as low as 5%</li>
+      <li> *No documentation needed</li>
+      <li> *Interest as low as 4%</li>
 </ul>
 </div>
   
