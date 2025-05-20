@@ -6,7 +6,7 @@ export default function Pain() {
 return (
     
     <main>
-<div className="min-h-screen bg-blue-800 text-white text-xl">  
+<div className="min-h-screen bg-blue-800 text-white text-2xl">  
 
 
 
