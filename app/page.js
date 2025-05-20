@@ -6,7 +6,7 @@ export default function Pain() {
 return (
     
     <main>
-<div className="min-h-screen bg-blue-900 text-white">  
+<div className="min-h-screen bg-blue-800 text-white text-xl">  
 
 
 
@@ -29,7 +29,7 @@ return (
 <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
 <div>
         <p className=" ml-49"><SlCalender/></p>
-        <p className="text-2xl font-bold">24/7</p>
+        <p className="text-2xl font-bold">24/7</p>    
         <p>Always available</p>
 </div>
 <div>
